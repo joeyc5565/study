@@ -31,8 +31,7 @@
     "demo-vega",
     "test-randomization",
     "test-skip-logic",
-    "basic-questionnaire-study",
-    "demo-html"
+    "basic-questionnaire-study"
   ],
   "configs": {
     "tutorial": {
