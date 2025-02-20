@@ -1,0 +1,401 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Basic Questionnaire Study",
+        "version": "pilot",
+        "authors": [
+            "The reVISit Team"
+        ],
+        "date": "2024-03-19",
+        "description": "A simple questionnaire study",
+        "organizations": [
+            "University of Utah",
+            "WPI",
+            "University of Toronto"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "contact@revisit.dev",
+        "helpTextPath": "basic-questionnaire-study/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/sum.html",
+            "response": []
+        },
+        "first-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "second-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "third-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "fourth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "fifth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "sixth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "seventh-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "eighth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "ninth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "tenth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "eleventh-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "twelfth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "thirteenth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "fourteenth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "fifteenth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "sixteenth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "seventeenth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "eighteenth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "nineteenth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "twentieth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "response": []
+        },
+        "twenty-first-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "twenty-second-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "twenty-third-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "twenty-fourth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "twenty-fifth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "twenty-sixth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "twenty-seventh-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "twenty-eighth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "twenty-ninth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-first-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-second-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-third-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-fourth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-fifth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-sixth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-seventh-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-eighth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "thirty-ninth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "fourty-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "response": []
+        },
+        "fourty-first-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fourty-second-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fourty-third-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fourty-fourth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fourty-fifth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fourty-sixth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fourty-seventh-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fourty-eighth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fourty-ninth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fiftieth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-first-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-second-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-third-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-fourth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-fifth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-sixth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-seventh-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-eighth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "fifty-ninth-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        },
+        "sixty-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/reverse-bar.html",
+            "response": []
+        }
+
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "first-question",
+            "second-question",
+            "third-question",
+            "fourth-question",
+            "fifth-question",
+            "sixth-question",
+            "seventh-question",
+            "eighth-question",
+            "ninth-question",
+            "tenth-question",
+            "eleventh-question",
+            "twelfth-question",
+            "thirteenth-question",
+            "fourteenth-question",
+            "fifteenth-question",
+            "sixteenth-question",
+            "seventeenth-question",
+            "eighteenth-question",
+            "nineteenth-question",
+            "twentieth-question",
+            "twenty-first-question",
+            "twenty-second-question",
+            "twenty-third-question",
+            "twenty-fourth-question",
+            "twenty-fifth-question",
+            "twenty-sixth-question",
+            "twenty-seventh-question",
+            "twenty-eighth-question",
+            "twenty-ninth-question",
+            "thirty-question",
+            "thirty-first-question",
+            "thirty-second-question",
+            "thirty-third-question",
+            "thirty-fourth-question",
+            "thirty-fifth-question",
+            "thirty-sixth-question",
+            "thirty-seventh-question",
+            "thirty-eighth-question",
+            "thirty-ninth-question",
+            "fourty-question",
+            "fourty-first-question",
+            "fourty-second-question",
+            "fourty-third-question",
+            "fourty-fourth-question",
+            "fourty-fifth-question",
+            "fourty-sixth-question",
+            "fourty-seventh-question",
+            "fourty-eighth-question",
+            "fourty-ninth-question",
+            "fiftieth-question",
+            "fifty-first-question",
+            "fifty-second-question",
+            "fifty-third-question",
+            "fifty-fourth-question",
+            "fifty-fifth-question",
+            "fifty-sixth-question",
+            "fifty-seventh-question",
+            "fifty-eighth-question",
+            "fifty-ninth-question",
+            "sixty-question"
+
+
+        ]
+    }
+}
