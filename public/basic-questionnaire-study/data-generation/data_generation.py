@@ -68,3 +68,5 @@ with open("generated_config.json", "w") as f:
     json.dump({"components": generated_data}, f, indent=4)
 
 print("✅ Data generation complete. File saved as generated_config.json")
+
+#testing
