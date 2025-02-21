@@ -1,4 +1,4 @@
-import { useCallback, useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
 import * as d3 from 'd3';
 import {
   Center, Group, Stack, Tooltip, Text, Divider, Button, Badge,
@@ -254,9 +254,17 @@ export function AllTasksTimeline({
 
         { participantData.completed ? (
           <svg style={{ width, height, overflow: 'visible' }}>
-            {tasks.map((t) => t.line)}
-            {tasks.map((t) => t.label)}
-            {browsedAway}
+            {tasks.map((t, index) => (
+              <React.Fragment key={index}>
+                {t.line}
+                {t.label}
+              </React.Fragment>
+            ))}
+            {browsedAway.map((browse, index) => (
+              <React.Fragment key={index}>
+                {browse}
+              </React.Fragment>
+            ))}
           </svg>
         ) : null}
       </Stack>
