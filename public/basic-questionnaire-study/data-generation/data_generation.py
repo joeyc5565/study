@@ -1,43 +1,69 @@
 import json
 import random
-import pandas as pd
 
-def generate_experiment_data(num_trials=200, num_points=10):
-    experiment_data = []
+def generate_experiment_data(num_trials=60, num_points=10):
+    """
+    Generate a dataset with random values between 0-100 for each trial.
+    The fifth data point will be the correct answer.
+    Assigns names in three categories (vertical, horizontal, reverse).
+    Ensures the correct file paths for each category.
+    """
+    experiment_data = {}
 
-    for trial in range(num_trials):
-        # Generate a list of random values between 0 and 100
-        data_points = [random.randint(0, 100) for _ in range(num_points)]
-        data_points.sort()  
+    for trial in range(1, num_trials + 1):
+        # Generate a list of 10 random values (sorted for consistency)
+        data_points = sorted([random.randint(0, 100) for _ in range(num_points)])
 
-        # Randomly select two data points for comparison
-        idx1, idx2 = random.sample(range(num_points), 2)
-        smaller, larger = sorted([data_points[idx1], data_points[idx2]])
+        # Select the fifth data point (index 4) as the correct answer
+        correct_value = data_points[4]
 
-        # Calculate the actual percentage
-        true_percentage = round((smaller / larger) * 100, 2)
+        # Determine the category based on trial number
+        if trial <= 20:
+            bar_type = "vertical_bar"
+            file_path = "basic-questionnaire-study/assets/vertical-bar.html"
+        elif trial <= 40:
+            bar_type = "horizontal_bar"
+            file_path = "basic-questionnaire-study/assets/horizontal.html"
+        else:
+            bar_type = "reverse_bar"
+            file_path = "basic-questionnaire-study/assets/reverse-bar.html"
 
-        trial_data = {
-            "trial_id": trial + 1,
-            "data_points": data_points,
-            "marked_indices": [idx1, idx2],
-            "true_percentage": true_percentage
+        question_id = f"{bar_type}_{(trial - 1) % 20 + 1}"
+        question_key = f"{trial}-question"
+
+        # Structure the trial data in the required format
+        experiment_data[question_key] = {
+            "type": "website",
+            "path": file_path,
+            "parameters": {
+                "barData": data_points
+            },
+            "response": [
+                {
+                    "id": question_id,
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": question_id,
+                    "answer": correct_value
+                }
+            ]
         }
-
-        experiment_data.append(trial_data)
 
     return experiment_data
 
-# Generate data
-data = generate_experiment_data()
+# Generate the dataset
+generated_data = generate_experiment_data()
 
-# Save as JSON for use in D3
-with open("experiment_data.json", "w") as f:
-    json.dump(data, f, indent=4)
+# Save the data to JSON
+with open("generated_config.json", "w") as f:
+    json.dump({"components": generated_data}, f, indent=4)
 
-# Optionally save as CSV
-df = pd.DataFrame(data)
-df.to_csv("experiment_data.csv", index=False)
-
-print("Data generation complete. Files saved as JSON and CSV.")
-
+print("✅ Data generation complete. File saved as generated_config.json")
