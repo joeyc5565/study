@@ -31,7 +31,37 @@
         "first-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_1",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_1",
+                    "answer": 59
+                }
+            ]
         },
         "second-question": {
             "type": "website",
@@ -323,12 +353,11 @@
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
             "response": []
         },
-        "sixty-question": {
+        "sixtieth-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
             "response": []
         }
-
     },
     "sequence": {
         "order": "fixed",
@@ -393,9 +422,7 @@
             "fifty-seventh-question",
             "fifty-eighth-question",
             "fifty-ninth-question",
-            "sixty-question"
-
-
+            "sixtieth-question"
         ]
     }
 }
