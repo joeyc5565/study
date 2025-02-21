@@ -9,6 +9,7 @@ def generate_experiment_data(num_trials=60, num_points=10):
     Ensures the correct file paths for each category.
     """
     experiment_data = {}
+    #loop
 
     for trial in range(1, num_trials + 1):
         # Generate a list of 10 random values (sorted for consistency)
@@ -67,3 +68,5 @@ with open("generated_config.json", "w") as f:
     json.dump({"components": generated_data}, f, indent=4)
 
 print("✅ Data generation complete. File saved as generated_config.json")
+
+#testing
