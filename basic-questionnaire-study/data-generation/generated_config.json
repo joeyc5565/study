@@ -1,33 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
-    "studyMetadata": {
-        "title": "Basic Questionnaire Study",
-        "version": "pilot",
-        "authors": [
-            "The reVISit Team"
-        ],
-        "date": "2024-03-19",
-        "description": "A simple questionnaire study",
-        "organizations": [
-            "University of Utah",
-            "WPI",
-            "University of Toronto"
-        ]
-    },
-    "uiConfig": {
-        "contactEmail": "contact@revisit.dev",
-        "helpTextPath": "basic-questionnaire-study/assets/help.md",
-        "logoPath": "revisitAssets/revisitLogoSquare.svg",
-        "withProgressBar": true,
-        "autoDownloadStudy": false,
-        "sidebar": true
-    },
     "components": {
-        "introduction": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/sum.html",
-            "response": []
-        },
         "1-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/vertical-bar.html",
@@ -2128,72 +2100,5 @@
                 }
             ]
         }
-
-    },
-    "sequence": {
-        "order": "fixed",
-        "components": [
-            "introduction",
-            "1-question",
-            "2-question",
-            "3-question",
-            "4-question",
-            "5-question",
-            "6-question",
-            "7-question",
-            "8-question",
-            "9-question",
-            "10-question",
-            "11-question",
-            "12-question",
-            "13-question",
-            "14-question",
-            "15-question",
-            "16-question",
-            "17-question",
-            "18-question",
-            "19-question",
-            "20-question",
-            "21-question",
-            "22-question",
-            "23-question",
-            "24-question",
-            "25-question",
-            "26-question",
-            "27-question",
-            "28-question",
-            "29-question",
-            "30-question",
-            "31-question",
-            "32-question",
-            "33-question",
-            "34-question",
-            "35-question",
-            "36-question",
-            "37-question",
-            "38-question",
-            "39-question",
-            "40-question",
-            "41-question",
-            "42-question",
-            "43-question",
-            "44-question",
-            "45-question",
-            "46-question",
-            "47-question",
-            "48-question",
-            "49-question",
-            "50-question",
-            "51-question",
-            "52-question",
-            "53-question",
-            "54-question",
-            "55-question",
-            "56-question",
-            "57-question",
-            "58-question",
-            "59-question",
-            "60-question"
-        ]
     }
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graph Column Value Question</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../../revisitUtilities/revisit-communicate.js"></script>
 </head>
 
 <body>
@@ -14,31 +15,32 @@
 <script>
     let currentData = null;
 
+    Revisit.onDataReceive((data) => {
+        console.log(data);
+    });
+
     async function fetchGraphData() {
-        const response = await fetch('../data-generation/experiment_data.json');
+        const response = await fetch('../data-generation/generated_config.json');
         if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
         }
-        const data = await response.json();
-        const usedTrials = JSON.parse(localStorage.getItem('usedTrials')) || [];
-        let randomTrialIndex;
+        const responseText = await response.text();
+        try {
+            const data = JSON.parse(responseText);
+            const urlParams = new URLSearchParams(window.location.search);
+            const questionId = urlParams.get('trialid');
 
-        do {
-            randomTrialIndex = Math.floor(Math.random() * 200);
-        } while (usedTrials.includes(randomTrialIndex) && usedTrials.length < 200);
-
-        if (usedTrials.length >= 200) {
-            localStorage.removeItem('usedTrials');
-        } else {
-            usedTrials.push(randomTrialIndex);
-            localStorage.setItem('usedTrials', JSON.stringify(usedTrials));
+            if (data.components[questionId] && data.components[questionId].parameters.barData) {
+                currentData = data.components[questionId].parameters.barData;
+                return currentData;
+            } else {
+                throw new Error('Bar data not found for the selected question ID');
+            }
+        } catch (error) {
+            console.error('Error parsing JSON:', error);
+            console.error('Response text:', responseText);
+            throw error;
         }
-
-        console.log('Selected trial index:', randomTrialIndex);
-        console.log('Data points:', data[randomTrialIndex].data_points);
-
-        currentData = data[randomTrialIndex].data_points;
-        return currentData;
     }
 
     function renderGraph(data) {
@@ -58,7 +60,8 @@
             options: {
                 scales: {
                     y: {
-                        beginAtZero: true
+                        beginAtZero: true,
+                        reverse: true // Reverse the y-axis
                     }
                 },
                 plugins: {
