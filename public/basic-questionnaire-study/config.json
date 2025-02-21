@@ -28,21 +28,21 @@
             "path": "basic-questionnaire-study/assets/sum.html",
             "response": []
         },
-        "first-question": {
+        "1-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/vertical-bar.html",
             "parameters": {
                 "barData": [
-                    10,
-                    20,
-                    30,
-                    40,
-                    50,
-                    60,
-                    70,
+                    6,
+                    9,
+                    19,
+                    43,
+                    46,
+                    68,
+                    78,
                     80,
-                    90,
-                    100
+                    92,
+                    93
                 ]
             },
             "response": [
@@ -59,370 +59,2141 @@
             "correctAnswer": [
                 {
                     "id": "vertical_bar_1",
+                    "answer": 46
+                }
+            ]
+        },
+        "2-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    0,
+                    4,
+                    53,
+                    53,
+                    54,
+                    54,
+                    64,
+                    81,
+                    87,
+                    97
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_2",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_2",
+                    "answer": 54
+                }
+            ]
+        },
+        "3-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    7,
+                    10,
+                    11,
+                    28,
+                    49,
+                    53,
+                    59,
+                    64,
+                    70,
+                    78
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_3",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_3",
+                    "answer": 49
+                }
+            ]
+        },
+        "4-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    29,
+                    36,
+                    54,
+                    58,
+                    62,
+                    63,
+                    65,
+                    68,
+                    75,
+                    90
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_4",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_4",
+                    "answer": 62
+                }
+            ]
+        },
+        "5-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    17,
+                    20,
+                    20,
+                    25,
+                    26,
+                    35,
+                    40,
+                    54,
+                    64,
+                    67
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_5",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_5",
+                    "answer": 26
+                }
+            ]
+        },
+        "6-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    5,
+                    7,
+                    48,
+                    61,
+                    65,
+                    68,
+                    77,
+                    81,
+                    86,
+                    92
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_6",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_6",
+                    "answer": 65
+                }
+            ]
+        },
+        "7-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    7,
+                    25,
+                    27,
+                    27,
+                    66,
+                    70,
+                    79,
+                    86,
+                    94,
+                    95
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_7",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_7",
+                    "answer": 66
+                }
+            ]
+        },
+        "8-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    21,
+                    38,
+                    49,
+                    56,
+                    56,
+                    64,
+                    84,
+                    87,
+                    90,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_8",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_8",
+                    "answer": 56
+                }
+            ]
+        },
+        "9-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    4,
+                    9,
+                    21,
+                    33,
+                    35,
+                    58,
+                    61,
+                    75,
+                    79,
+                    87
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_9",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_9",
+                    "answer": 35
+                }
+            ]
+        },
+        "10-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    2,
+                    9,
+                    13,
+                    18,
+                    28,
+                    35,
+                    43,
+                    62,
+                    92,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_10",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_10",
+                    "answer": 28
+                }
+            ]
+        },
+        "11-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    9,
+                    19,
+                    31,
+                    36,
+                    64,
+                    65,
+                    67,
+                    82,
+                    84,
+                    86
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_11",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_11",
+                    "answer": 64
+                }
+            ]
+        },
+        "12-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    6,
+                    9,
+                    9,
+                    14,
+                    19,
+                    19,
+                    33,
+                    70,
+                    85,
+                    97
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_12",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_12",
+                    "answer": 19
+                }
+            ]
+        },
+        "13-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    13,
+                    25,
+                    30,
+                    34,
+                    36,
+                    58,
+                    68,
+                    75,
+                    76,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_13",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_13",
+                    "answer": 36
+                }
+            ]
+        },
+        "14-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    8,
+                    14,
+                    28,
+                    35,
+                    42,
+                    59,
+                    73,
+                    79,
+                    83,
+                    85
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_14",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_14",
+                    "answer": 42
+                }
+            ]
+        },
+        "15-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    9,
+                    26,
+                    45,
+                    49,
+                    50,
+                    52,
+                    68,
+                    84,
+                    85,
+                    89
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_15",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_15",
+                    "answer": 50
+                }
+            ]
+        },
+        "16-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    0,
+                    3,
+                    18,
+                    20,
+                    22,
+                    23,
+                    36,
+                    40,
+                    90,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_16",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_16",
+                    "answer": 22
+                }
+            ]
+        },
+        "17-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    3,
+                    9,
+                    9,
+                    21,
+                    27,
+                    35,
+                    43,
+                    56,
+                    92,
+                    92
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_17",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_17",
+                    "answer": 27
+                }
+            ]
+        },
+        "18-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    7,
+                    25,
+                    51,
+                    53,
+                    55,
+                    57,
+                    58,
+                    91,
+                    91,
+                    92
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_18",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_18",
+                    "answer": 55
+                }
+            ]
+        },
+        "19-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    19,
+                    24,
+                    50,
+                    57,
+                    63,
+                    64,
+                    77,
+                    83,
+                    88,
+                    97
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_19",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_19",
+                    "answer": 63
+                }
+            ]
+        },
+        "20-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/vertical-bar.html",
+            "parameters": {
+                "barData": [
+                    7,
+                    19,
+                    27,
+                    29,
+                    37,
+                    38,
+                    46,
+                    61,
+                    68,
+                    69
+                ]
+            },
+            "response": [
+                {
+                    "id": "vertical_bar_20",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "vertical_bar_20",
+                    "answer": 37
+                }
+            ]
+        },
+        "21-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "parameters": {
+                "barData": [
+                    10,
+                    26,
+                    45,
+                    71,
+                    75,
+                    84,
+                    93,
+                    98,
+                    99,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_1",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_1",
+                    "answer": 75
+                }
+            ]
+        },
+        "22-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "parameters": {
+                "barData": [
+                    13,
+                    19,
+                    36,
+                    39,
+                    46,
+                    52,
+                    59,
+                    59,
+                    88,
+                    95
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_2",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_2",
+                    "answer": 46
+                }
+            ]
+        },
+        "23-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "parameters": {
+                "barData": [
+                    6,
+                    30,
+                    33,
+                    51,
+                    68,
+                    70,
+                    78,
+                    83,
+                    89,
+                    96
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_3",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_3",
+                    "answer": 68
+                }
+            ]
+        },
+        "24-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "parameters": {
+                "barData": [
+                    7,
+                    28,
+                    30,
+                    32,
+                    32,
+                    34,
+                    42,
+                    66,
+                    73,
+                    88
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_4",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_4",
+                    "answer": 32
+                }
+            ]
+        },
+        "25-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "parameters": {
+                "barData": [
+                    2,
+                    26,
+                    36,
+                    37,
+                    38,
+                    41,
+                    57,
+                    62,
+                    69,
+                    97
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_5",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_5",
+                    "answer": 38
+                }
+            ]
+        },
+        "26-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "parameters": {
+                "barData": [
+                    6,
+                    7,
+                    14,
+                    19,
+                    21,
+                    43,
+                    66,
+                    73,
+                    74,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_6",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_6",
+                    "answer": 21
+                }
+            ]
+        },
+        "27-question": {
+            "type": "website",
+            "path": "basic-questionnaire-study/assets/horizontal.html",
+            "parameters": {
+                "barData": [
+                    7,
+                    15,
+                    23,
+                    45,
+                    59,
+                    69,
+                    70,
+                    73,
+                    90,
+                    92
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_7",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_7",
                     "answer": 59
                 }
             ]
         },
-        "second-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "third-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "fourth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "fifth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "sixth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "seventh-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "eighth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "ninth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "tenth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "eleventh-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "twelfth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "thirteenth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "fourteenth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "fifteenth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "sixteenth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "seventeenth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "eighteenth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "nineteenth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "twentieth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/vertical-bar.html",
-            "response": []
-        },
-        "twenty-first-question": {
+        "28-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    0,
+                    19,
+                    20,
+                    31,
+                    39,
+                    41,
+                    56,
+                    63,
+                    76,
+                    78
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_8",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_8",
+                    "answer": 39
+                }
+            ]
         },
-        "twenty-second-question": {
+        "29-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    8,
+                    17,
+                    17,
+                    19,
+                    25,
+                    43,
+                    54,
+                    69,
+                    93,
+                    96
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_9",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_9",
+                    "answer": 25
+                }
+            ]
         },
-        "twenty-third-question": {
+        "30-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    5,
+                    29,
+                    33,
+                    41,
+                    43,
+                    56,
+                    58,
+                    58,
+                    74,
+                    79
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_10",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_10",
+                    "answer": 43
+                }
+            ]
         },
-        "twenty-fourth-question": {
+        "31-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    5,
+                    14,
+                    27,
+                    35,
+                    44,
+                    55,
+                    67,
+                    74,
+                    76,
+                    98
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_11",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_11",
+                    "answer": 44
+                }
+            ]
         },
-        "twenty-fifth-question": {
+        "32-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    3,
+                    20,
+                    38,
+                    45,
+                    46,
+                    58,
+                    59,
+                    60,
+                    62,
+                    63
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_12",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_12",
+                    "answer": 46
+                }
+            ]
         },
-        "twenty-sixth-question": {
+        "33-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    6,
+                    14,
+                    16,
+                    19,
+                    32,
+                    42,
+                    53,
+                    59,
+                    90,
+                    99
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_13",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_13",
+                    "answer": 32
+                }
+            ]
         },
-        "twenty-seventh-question": {
+        "34-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    6,
+                    16,
+                    18,
+                    19,
+                    24,
+                    42,
+                    44,
+                    80,
+                    91,
+                    92
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_14",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_14",
+                    "answer": 24
+                }
+            ]
         },
-        "twenty-eighth-question": {
+        "35-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    5,
+                    12,
+                    13,
+                    14,
+                    14,
+                    18,
+                    44,
+                    45,
+                    45,
+                    70
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_15",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_15",
+                    "answer": 14
+                }
+            ]
         },
-        "twenty-ninth-question": {
+        "36-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    1,
+                    3,
+                    29,
+                    61,
+                    62,
+                    63,
+                    71,
+                    76,
+                    95,
+                    96
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_16",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_16",
+                    "answer": 62
+                }
+            ]
         },
-        "thirty-question": {
+        "37-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    2,
+                    8,
+                    27,
+                    30,
+                    41,
+                    43,
+                    48,
+                    55,
+                    70,
+                    94
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_17",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_17",
+                    "answer": 41
+                }
+            ]
         },
-        "thirty-first-question": {
+        "38-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    40,
+                    45,
+                    47,
+                    49,
+                    58,
+                    74,
+                    83,
+                    88,
+                    90,
+                    94
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_18",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_18",
+                    "answer": 58
+                }
+            ]
         },
-        "thirty-second-question": {
+        "39-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    18,
+                    29,
+                    45,
+                    45,
+                    50,
+                    79,
+                    80,
+                    80,
+                    86,
+                    95
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_19",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_19",
+                    "answer": 50
+                }
+            ]
         },
-        "thirty-third-question": {
+        "40-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    13,
+                    19,
+                    38,
+                    38,
+                    53,
+                    63,
+                    72,
+                    79,
+                    95,
+                    98
+                ]
+            },
+            "response": [
+                {
+                    "id": "horizontal_bar_20",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "horizontal_bar_20",
+                    "answer": 53
+                }
+            ]
         },
-        "thirty-fourth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
-        },
-        "thirty-fifth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
-        },
-        "thirty-sixth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
-        },
-        "thirty-seventh-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
-        },
-        "thirty-eighth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
-        },
-        "thirty-ninth-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
-        },
-        "fourty-question": {
-            "type": "website",
-            "path": "basic-questionnaire-study/assets/horizontal.html",
-            "response": []
-        },
-        "fourty-first-question": {
+        "41-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    4,
+                    36,
+                    38,
+                    45,
+                    52,
+                    52,
+                    72,
+                    81,
+                    88,
+                    89
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_1",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_1",
+                    "answer": 52
+                }
+            ]
         },
-        "fourty-second-question": {
+        "42-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    1,
+                    20,
+                    22,
+                    29,
+                    32,
+                    36,
+                    43,
+                    71,
+                    89,
+                    90
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_2",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_2",
+                    "answer": 32
+                }
+            ]
         },
-        "fourty-third-question": {
+        "43-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    8,
+                    12,
+                    13,
+                    13,
+                    13,
+                    22,
+                    50,
+                    54,
+                    83,
+                    86
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_3",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_3",
+                    "answer": 13
+                }
+            ]
         },
-        "fourty-fourth-question": {
+        "44-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    3,
+                    8,
+                    18,
+                    23,
+                    38,
+                    57,
+                    59,
+                    62,
+                    65,
+                    98
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_4",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_4",
+                    "answer": 38
+                }
+            ]
         },
-        "fourty-fifth-question": {
+        "45-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    5,
+                    22,
+                    42,
+                    47,
+                    59,
+                    73,
+                    75,
+                    83,
+                    89,
+                    92
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_5",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_5",
+                    "answer": 59
+                }
+            ]
         },
-        "fourty-sixth-question": {
+        "46-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    16,
+                    31,
+                    31,
+                    39,
+                    53,
+                    54,
+                    68,
+                    83,
+                    89,
+                    93
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_6",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_6",
+                    "answer": 53
+                }
+            ]
         },
-        "fourty-seventh-question": {
+        "47-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    17,
+                    20,
+                    23,
+                    27,
+                    35,
+                    35,
+                    59,
+                    62,
+                    92,
+                    99
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_7",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_7",
+                    "answer": 35
+                }
+            ]
         },
-        "fourty-eighth-question": {
+        "48-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    6,
+                    12,
+                    34,
+                    38,
+                    39,
+                    43,
+                    64,
+                    74,
+                    75,
+                    92
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_8",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_8",
+                    "answer": 39
+                }
+            ]
         },
-        "fourty-ninth-question": {
+        "49-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    0,
+                    10,
+                    37,
+                    41,
+                    49,
+                    61,
+                    66,
+                    98,
+                    99,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_9",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_9",
+                    "answer": 49
+                }
+            ]
         },
-        "fiftieth-question": {
+        "50-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    4,
+                    11,
+                    22,
+                    34,
+                    50,
+                    54,
+                    82,
+                    86,
+                    87,
+                    95
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_10",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_10",
+                    "answer": 50
+                }
+            ]
         },
-        "fifty-first-question": {
+        "51-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    12,
+                    16,
+                    24,
+                    36,
+                    50,
+                    52,
+                    62,
+                    71,
+                    84,
+                    86
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_11",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_11",
+                    "answer": 50
+                }
+            ]
         },
-        "fifty-second-question": {
+        "52-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    6,
+                    19,
+                    27,
+                    51,
+                    55,
+                    69,
+                    86,
+                    93,
+                    96,
+                    100
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_12",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_12",
+                    "answer": 55
+                }
+            ]
         },
-        "fifty-third-question": {
+        "53-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    7,
+                    48,
+                    50,
+                    57,
+                    59,
+                    59,
+                    80,
+                    87,
+                    91,
+                    98
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_13",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_13",
+                    "answer": 59
+                }
+            ]
         },
-        "fifty-fourth-question": {
+        "54-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    6,
+                    8,
+                    40,
+                    40,
+                    42,
+                    54,
+                    69,
+                    78,
+                    79,
+                    81
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_14",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_14",
+                    "answer": 42
+                }
+            ]
         },
-        "fifty-fifth-question": {
+        "55-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    12,
+                    22,
+                    34,
+                    40,
+                    45,
+                    52,
+                    61,
+                    62,
+                    92,
+                    97
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_15",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_15",
+                    "answer": 45
+                }
+            ]
         },
-        "fifty-sixth-question": {
+        "56-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    31,
+                    35,
+                    39,
+                    45,
+                    47,
+                    48,
+                    51,
+                    79,
+                    84,
+                    94
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_16",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_16",
+                    "answer": 47
+                }
+            ]
         },
-        "fifty-seventh-question": {
+        "57-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    16,
+                    27,
+                    44,
+                    46,
+                    65,
+                    76,
+                    86,
+                    92,
+                    98,
+                    98
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_17",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_17",
+                    "answer": 65
+                }
+            ]
         },
-        "fifty-eighth-question": {
+        "58-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    19,
+                    34,
+                    35,
+                    36,
+                    43,
+                    44,
+                    47,
+                    57,
+                    69,
+                    89
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_18",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_18",
+                    "answer": 43
+                }
+            ]
         },
-        "fifty-ninth-question": {
+        "59-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    17,
+                    41,
+                    44,
+                    45,
+                    53,
+                    55,
+                    58,
+                    81,
+                    84,
+                    86
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_19",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_19",
+                    "answer": 53
+                }
+            ]
         },
-        "sixtieth-question": {
+        "60-question": {
             "type": "website",
             "path": "basic-questionnaire-study/assets/reverse-bar.html",
-            "response": []
+            "parameters": {
+                "barData": [
+                    3,
+                    7,
+                    16,
+                    22,
+                    39,
+                    51,
+                    60,
+                    61,
+                    68,
+                    92
+                ]
+            },
+            "response": [
+                {
+                    "id": "reverse_bar_20",
+                    "prompt": "What is the value of the selected bar?",
+                    "location": "sidebar",
+                    "type": "numerical",
+                    "placeholder": "0-100",
+                    "min": 0,
+                    "max": 100
+                }
+            ],
+            "correctAnswer": [
+                {
+                    "id": "reverse_bar_20",
+                    "answer": 39
+                }
+            ]
         }
+
     },
     "sequence": {
         "order": "fixed",
         "components": [
             "introduction",
-            "first-question",
-            "second-question",
-            "third-question",
-            "fourth-question",
-            "fifth-question",
-            "sixth-question",
-            "seventh-question",
-            "eighth-question",
-            "ninth-question",
-            "tenth-question",
-            "eleventh-question",
-            "twelfth-question",
-            "thirteenth-question",
-            "fourteenth-question",
-            "fifteenth-question",
-            "sixteenth-question",
-            "seventeenth-question",
-            "eighteenth-question",
-            "nineteenth-question",
-            "twentieth-question",
-            "twenty-first-question",
-            "twenty-second-question",
-            "twenty-third-question",
-            "twenty-fourth-question",
-            "twenty-fifth-question",
-            "twenty-sixth-question",
-            "twenty-seventh-question",
-            "twenty-eighth-question",
-            "twenty-ninth-question",
-            "thirty-question",
-            "thirty-first-question",
-            "thirty-second-question",
-            "thirty-third-question",
-            "thirty-fourth-question",
-            "thirty-fifth-question",
-            "thirty-sixth-question",
-            "thirty-seventh-question",
-            "thirty-eighth-question",
-            "thirty-ninth-question",
-            "fourty-question",
-            "fourty-first-question",
-            "fourty-second-question",
-            "fourty-third-question",
-            "fourty-fourth-question",
-            "fourty-fifth-question",
-            "fourty-sixth-question",
-            "fourty-seventh-question",
-            "fourty-eighth-question",
-            "fourty-ninth-question",
-            "fiftieth-question",
-            "fifty-first-question",
-            "fifty-second-question",
-            "fifty-third-question",
-            "fifty-fourth-question",
-            "fifty-fifth-question",
-            "fifty-sixth-question",
-            "fifty-seventh-question",
-            "fifty-eighth-question",
-            "fifty-ninth-question",
-            "sixtieth-question"
+            "1-question",
+            "2-question",
+            "3-question",
+            "4-question",
+            "5-question",
+            "6-question",
+            "7-question",
+            "8-question",
+            "9-question",
+            "10-question",
+            "11-question",
+            "12-question",
+            "13-question",
+            "14-question",
+            "15-question",
+            "16-question",
+            "17-question",
+            "18-question",
+            "19-question",
+            "20-question",
+            "21-question",
+            "22-question",
+            "23-question",
+            "24-question",
+            "25-question",
+            "26-question",
+            "27-question",
+            "28-question",
+            "29-question",
+            "30-question",
+            "31-question",
+            "32-question",
+            "33-question",
+            "34-question",
+            "35-question",
+            "36-question",
+            "37-question",
+            "38-question",
+            "39-question",
+            "40-question",
+            "41-question",
+            "42-question",
+            "43-question",
+            "44-question",
+            "45-question",
+            "46-question",
+            "47-question",
+            "48-question",
+            "49-question",
+            "50-question",
+            "51-question",
+            "52-question",
+            "53-question",
+            "54-question",
+            "55-question",
+            "56-question",
+            "57-question",
+            "58-question",
+            "59-question",
+            "60-question"
         ]
     }
 }
