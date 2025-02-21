@@ -48,7 +48,7 @@
             "response": [
                 {
                     "id": "vertical_bar_1",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -83,7 +83,7 @@
             "response": [
                 {
                     "id": "vertical_bar_2",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -118,7 +118,7 @@
             "response": [
                 {
                     "id": "vertical_bar_3",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -153,7 +153,7 @@
             "response": [
                 {
                     "id": "vertical_bar_4",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -188,7 +188,7 @@
             "response": [
                 {
                     "id": "vertical_bar_5",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -223,7 +223,7 @@
             "response": [
                 {
                     "id": "vertical_bar_6",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -258,7 +258,7 @@
             "response": [
                 {
                     "id": "vertical_bar_7",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -293,7 +293,7 @@
             "response": [
                 {
                     "id": "vertical_bar_8",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -328,7 +328,7 @@
             "response": [
                 {
                     "id": "vertical_bar_9",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -363,7 +363,7 @@
             "response": [
                 {
                     "id": "vertical_bar_10",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -398,7 +398,7 @@
             "response": [
                 {
                     "id": "vertical_bar_11",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -433,7 +433,7 @@
             "response": [
                 {
                     "id": "vertical_bar_12",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -468,7 +468,7 @@
             "response": [
                 {
                     "id": "vertical_bar_13",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -503,7 +503,7 @@
             "response": [
                 {
                     "id": "vertical_bar_14",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -538,7 +538,7 @@
             "response": [
                 {
                     "id": "vertical_bar_15",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -573,7 +573,7 @@
             "response": [
                 {
                     "id": "vertical_bar_16",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -608,7 +608,7 @@
             "response": [
                 {
                     "id": "vertical_bar_17",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -643,7 +643,7 @@
             "response": [
                 {
                     "id": "vertical_bar_18",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -678,7 +678,7 @@
             "response": [
                 {
                     "id": "vertical_bar_19",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -713,7 +713,7 @@
             "response": [
                 {
                     "id": "vertical_bar_20",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -748,7 +748,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_1",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -783,7 +783,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_2",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -818,7 +818,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_3",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -853,7 +853,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_4",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -888,7 +888,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_5",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -923,7 +923,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_6",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -958,7 +958,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_7",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -993,7 +993,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_8",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1028,7 +1028,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_9",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1063,7 +1063,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_10",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1098,7 +1098,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_11",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1133,7 +1133,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_12",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1168,7 +1168,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_13",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1203,7 +1203,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_14",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1238,7 +1238,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_15",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1273,7 +1273,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_16",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1308,7 +1308,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_17",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1343,7 +1343,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_18",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1378,7 +1378,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_19",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1413,7 +1413,7 @@
             "response": [
                 {
                     "id": "horizontal_bar_20",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1448,7 +1448,7 @@
             "response": [
                 {
                     "id": "reverse_bar_1",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1483,7 +1483,7 @@
             "response": [
                 {
                     "id": "reverse_bar_2",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1518,7 +1518,7 @@
             "response": [
                 {
                     "id": "reverse_bar_3",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1553,7 +1553,7 @@
             "response": [
                 {
                     "id": "reverse_bar_4",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1588,7 +1588,7 @@
             "response": [
                 {
                     "id": "reverse_bar_5",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1623,7 +1623,7 @@
             "response": [
                 {
                     "id": "reverse_bar_6",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1658,7 +1658,7 @@
             "response": [
                 {
                     "id": "reverse_bar_7",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1693,7 +1693,7 @@
             "response": [
                 {
                     "id": "reverse_bar_8",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1728,7 +1728,7 @@
             "response": [
                 {
                     "id": "reverse_bar_9",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1763,7 +1763,7 @@
             "response": [
                 {
                     "id": "reverse_bar_10",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1798,7 +1798,7 @@
             "response": [
                 {
                     "id": "reverse_bar_11",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1833,7 +1833,7 @@
             "response": [
                 {
                     "id": "reverse_bar_12",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1868,7 +1868,7 @@
             "response": [
                 {
                     "id": "reverse_bar_13",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1903,7 +1903,7 @@
             "response": [
                 {
                     "id": "reverse_bar_14",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1938,7 +1938,7 @@
             "response": [
                 {
                     "id": "reverse_bar_15",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -1973,7 +1973,7 @@
             "response": [
                 {
                     "id": "reverse_bar_16",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -2008,7 +2008,7 @@
             "response": [
                 {
                     "id": "reverse_bar_17",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -2043,7 +2043,7 @@
             "response": [
                 {
                     "id": "reverse_bar_18",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -2078,7 +2078,7 @@
             "response": [
                 {
                     "id": "reverse_bar_19",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -2113,7 +2113,7 @@
             "response": [
                 {
                     "id": "reverse_bar_20",
-                    "prompt": "What is the value of the selected bar?",
+                    "prompt": "What is the value of the 5th bar?",
                     "location": "sidebar",
                     "type": "numerical",
                     "placeholder": "0-100",
@@ -2128,7 +2128,6 @@
                 }
             ]
         }
-
     },
     "sequence": {
         "order": "fixed",
