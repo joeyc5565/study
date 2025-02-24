@@ -31,7 +31,7 @@ Each trial followed these steps:
 
 ---
 
-## **Error Calculation Method**  
+## Error Calculation Method  
 
 We calculated **Error** using the following equations:  
 
@@ -40,12 +40,15 @@ We calculated **Error** using the following equations:
    \text{Error} = |\text{ReportedValue} - \text{CorrectValue}|
    \]  
 
-2. **Log-Base-2 Error Scaling (Cleveland & McGill’s Method)**:  
+2. **Log-Base-2 Error Scaling (Cleveland & McGill’s Method):**  
    \[
-   \log_2(|\text{ReportedValue} - \text{CorrectValue}| + 1/8)
+   \log_2(|\text{ReportedValue} - \text{CorrectValue}| + \frac{1}{8})
    \]  
-   - **If `ReportedValue == CorrectValue`, log2Error is set to `0` instead of \(\log_2(1/8) = -3\).**  
-   - This prevents distortion at small errors and better captures perception differences.  
+
+   - If **ReportedValue == CorrectValue**, `log2Error` is set to **0** instead of \( \log_2(\frac{1}{8}) = -3 \).  
+   - This prevents distortion at small errors and provides a better measure of perception differences.  
+
+
 
 ---
 
