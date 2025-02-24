@@ -84,6 +84,18 @@ To ensure robust results, we computed **bootstrapped 95% confidence intervals** 
 
 ---
 
+## **Technical Achievements**
+
+- **Tooltip Removal:** Tooltips, which display data values when users hover over the bars, were removed to prevent participants from cheating.
+- **Dynamic Data Fetching:** Implemented dynamic data fetching from a JSON file to ensure that each trial uses a unique set of data points, enhancing the randomness and reliability of the experiment.
+- **Consistent Logging** Logs the array of datapoints showing in the graph that appears in the console for each trial. It helps with debugging and testing.
+
+## **Design Achievements**
+
+- **Single-page generation:** The study's JSON files for questions select one of three graph generators, each of which randomizes the trial for the graph.
+- **Changed Styling:** 
+- **py for data generation:** Created Python file to generate data for the study. It generates a JSON file with the data for the study that is random and is used to create the visualizations. 
+
 ## **Build Instructions**  
 
 To run this demo experiment locally, install Node.js on your computer:  
