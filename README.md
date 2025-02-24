@@ -50,21 +50,27 @@ The following visualization compares the **average accuracy (proportion correct)
 ### **Results Chart**  
 ![Visualization Error Analysis](Accuracy_Comparison.png)  
 
+### **Log2Error Analysis with Confidence Intervals**  
+In addition to accuracy, we computed **log2Error**, which measures how far participants' responses deviated from the correct value on a logarithmic scale. Lower log2Error values indicate better performance.  
+
+#### **Log2Error Comparison Chart**  
+![Log2Error Comparison](log2Error_Comparison_Chart.png)  
+
 #### **Key Observations:**  
-- **Horizontal bar charts** resulted in the **lowest error**, making them the most effective for accurate data interpretation.  
-- **Vertical bar charts** had slightly higher error rates but were still relatively effective.  
-- **Reverse bar charts** had the **highest error**, suggesting that the inverted layout may cause difficulty in extracting values accurately.  
+- **Horizontal bar charts** resulted in the **lowest log2Error**, meaning participants made the smallest estimation errors.  
+- **Reverse bar charts** had **moderate log2Error**, showing some difficulty in estimating values accurately.  
+- **Vertical bar charts** had the **highest log2Error**, indicating the most significant errors in value perception.  
+
+---
 
 ---
 
 ## **Confidence Intervals (Bootstrapped 95%)**  
+To ensure robust results, we computed **bootstrapped 95% confidence intervals** for both **accuracy** and **log2Error** of each bar chart orientation.
 
-To ensure robust results, we computed **bootstrapped 95% confidence intervals** for the **log2Error** of each bar chart orientation.
-
-- **Implementation:** This was done using **Python with pandas and Matplotlib**, not R (ggplot2).  
+- **Implementation:** This was done using **Python with pandas, Matplotlib, and Scipy bootstrap methods**, not R (ggplot2).  
 - **Result:** The ranking of visualizations remained stable within the confidence intervals, further validating the conclusions.  
 
----
 
 ## Example Bar Charts Used in the Experiment  
 
