@@ -35,20 +35,10 @@ Each trial followed these steps:
 
 We calculated **Error** using the following equations:  
 
-1. **Absolute Error Calculation:**  
-   \[
-   \text{Error} = |\text{ReportedValue} - \text{CorrectValue}|
-   \]  
+log2Error = log2(|ReportedValue - CorrectValue| + 1/8)
 
-2. **Log-Base-2 Error Scaling (Cleveland & McGill’s Method):**  
-   \[
-   \log_2(|\text{ReportedValue} - \text{CorrectValue}| + \frac{1}{8})
-   \]  
-
-   - If **ReportedValue == CorrectValue**, `log2Error` is set to **0** instead of \( \log_2(\frac{1}{8}) = -3 \).  
-   - This prevents distortion at small errors and provides a better measure of perception differences.  
-
-
+- If **ReportedValue == CorrectValue**, `log2Error` is set to **0** instead of `log2(1/8) = -3`.  
+- This prevents distortion at small errors and provides a better measure of perception differences.  
 
 ---
 
