@@ -51,7 +51,8 @@ We calculated **Error** using the following equations:
 
 ## **Results & Visualization Performance**  
 
-The following visualization compares the **average log2Error** across the three bar chart orientations. **Lower values indicate better accuracy.**  
+The following visualization compares the **average accuracy (proportion correct)** across the three bar chart orientations. **Higher values indicate better accuracy, meaning participants made fewer mistakes. Lower values indicate worse accuracy.**
+
 
 ### **Results Chart**  
 ![Visualization Error Analysis](Accuracy_Comparison.png)  
