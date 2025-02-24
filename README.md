@@ -66,13 +66,14 @@ To ensure robust results, we computed **bootstrapped 95% confidence intervals** 
 
 ---
 
-## **Example Bar Charts Used in the Experiment**  
+## Example Bar Charts Used in the Experiment  
 
-| Chart Type  | Example |
-|-------------|---------|
-| **Horizontal Bar Chart** | ![Horizontal Bar Chart](horizontal_chart_example.png) |
-| **Vertical Bar Chart** | ![Vertical Bar Chart](vertical_chart_example.png) |
-| **Reverse Bar Chart** | ![Reverse Bar Chart](reverse_chart_example.png) |
+| Chart Type              | Example |
+|-------------------------|---------|
+| **Horizontal Bar Chart** | ![Horizontal Bar Chart](HorizontalBarChart.png) |
+| **Vertical Bar Chart**   | ![Vertical Bar Chart](VerticalBarChart.png) |
+| **Reverse Bar Chart**    | ![Reverse Bar Chart](ReverseBarChart.png) |
+
 
 ---
 
