@@ -93,7 +93,7 @@ To ensure robust results, we computed **bootstrapped 95% confidence intervals** 
 ## **Design Achievements**
 
 - **Single-page generation:** The study's JSON files for questions select one of three graph generators, each of which randomizes the trial for the graph.
-- **Changed Styling:** 
+- **Changed Styling:** Added necessary padding to ensure graphs have good spacing. Mae sure that graphs have good contrast with the white background.
 - **py for data generation:** Created Python file to generate data for the study. It generates a JSON file with the data for the study that is random and is used to create the visualizations. 
 
 ## **Build Instructions**  
